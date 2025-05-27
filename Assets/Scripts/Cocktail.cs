@@ -1,16 +1,9 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public class Cocktail : MonoBehaviour
+[CreateAssetMenu(fileName = "WildesAlec", menuName = "Cocktail")]
+
+public class Cocktail : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public List<string> ingredients = new List<string>();
 }
