@@ -5,5 +5,7 @@ using System.Collections.Generic;
 
 public class Cocktail : ScriptableObject
 {
-    public List<string> ingredients = new List<string>();
+    public List<ingredient> ingredients = new List<ingredient>();
+    public List<ingredient> addOns = new List<ingredient>();
+    public List<string> description = new List<string>();
 }

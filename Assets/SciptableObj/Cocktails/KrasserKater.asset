@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4543150b8e73f943bb0e5aa4df565b2, type: 3}
+  m_Name: KrasserKater
+  m_EditorClassIdentifier: 
+  ingredients:
+  - name: Vodka
+    amount: 50
+  - name: Berenzen
+    amount: 200
+  - name: Orangensaft
+    amount: 200
+  addOns: []
+  description: []

@@ -10,6 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4543150b8e73f943bb0e5aa4df565b2, type: 3}
-  m_Name: WildesAlec
+  m_Name: BruderVertrauMir
   m_EditorClassIdentifier: 
-  ingredients: []
+  ingredients:
+  - name: Vodka
+    amount: 50
+  - name: Orangensaft
+    amount: 200
+  addOns:
+  - name: "Eisw\xFCrfel"
+    amount: 0
+  description: []
